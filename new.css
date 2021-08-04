@@ -1,0 +1,314 @@
+@media screen and (min-width:600px) 
+{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #E7E9EB;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+    font-size: 48px;
+    color: beige;
+    font-weight: bold;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin: 4px;
+    font-size: 20px;
+    color: beige;
+    font-weight: 200;
+    padding: 8px;
+}
+
+.active,nav ul li a:hover{
+    background-color: beige;
+    color: #272828;
+    margin: 4px;
+}
+
+.qoute p{
+    text-align: center;
+    margin-top: 20%; 
+    font-size: 80px;
+    color: beige;
+}
+.about{
+    width: 100%;
+    padding: 70px 0;
+    height: 100vh;
+    background: radial-gradient(
+     at center,#E7E9EB , #515353
+    );
+    color: black;
+}
+
+.about{
+    width: 100%;
+    padding: 70px 0;
+    background: radial-gradient(
+     at center,#E7E9EB , #515353
+    );
+    color: black;
+}
+
+.about_us{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.about_us h1{
+    font-size: 40px;
+}
+.flex{
+    display: flex;
+    box-sizing: border-box;
+}
+.about_text{
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+    font-weight: 200;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+    width: 90vw;
+    margin: 20px;
+}
+.about_text p{
+    margin-bottom: 4px;
+}
+.about_img{
+    flex-basis: 50%;
+    margin: 20px;
+}
+.about_img img{
+    width: 400px;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.service{
+    width: 100%;
+    background: radial-gradient(
+     at center, #515353, #272828
+    );
+    color: beige;
+}
+.service-title h1{
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.cards{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+#card{
+    width: 300px;
+    margin: 16px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px black;
+    height: 80vh;
+}
+.AI{
+    height: 100vh;
+}
+.AI-img{
+    width: 100%;
+}
+.AI-img img{
+    width: 100%;
+}
+.AI-text{
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+.AI-title
+{
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 36px;
+}
+.AI_body{
+    text-align: justify;
+    line-height: 1.5;
+}
+.AD{
+    height: 100vh;
+}
+.AD-img{
+    width: 100%;
+}
+.AD-img img{
+    width: 100%;
+}
+.AD-text{
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+.AD-title
+{
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 48px;
+}
+.AD_body{
+    text-align: justify;
+    line-height: 1.5;
+}
+.DM{
+    height: 100vh;
+}
+.DM-img{
+    width: 100%;
+}
+.DM-img img{
+    width: 100%;
+}
+.DM-text{
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+.DM-title
+{
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 48px;
+}
+.DM_body{
+    text-align: justify;
+    line-height: 1.5;
+}
+.GD{
+    height: 100vh;
+}
+.GD-img{
+    width: 100%;
+}
+.GD-img img{
+    width: 100%;
+}
+.GD-text{
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+.GD-title
+{
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 48px;
+}
+.GD_body{
+    text-align: justify;
+    line-height: 1.5;
+}
+.portfolio{
+    width: 100%;
+    background: radial-gradient(
+     at center,#E7E9EB , #515353
+    );
+}
+
+.contact{
+    width: 100%;
+    background-color: #272828;
+    color: beige;
+}
+.c-title h1{
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.contact{
+    text-align: center;
+}
+
+
+.fa{
+    padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.footer{
+    background-color: black;
+    color: beige;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    height: 10vh;
+}
+.footer-menu a{
+    display: inline-block;
+    margin: 4px;
+    text-decoration: none;
+    color: beige;
+}
+.footer-menu a:hover{
+    color:gray;
+}
+}
